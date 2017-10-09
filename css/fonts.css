@@ -1,0 +1,140 @@
+@font-face{
+	font-family: SansProLight;
+	src:url('../fonts/SourceSansPro-Light.ttf');
+}
+@font-face{
+	font-family: SansProRegular;
+	src:url("../fonts/SourceSansPro-Regular.ttf");
+}
+
+@font-face{
+	font-family: SansProBlack;
+	src:url("../fonts/SourceSansPro-Black.ttf");
+}
+@font-face{
+	font-family: PeIcon;
+	src:url("../fonts/Pe-icon-7-stroke.ttf");
+}
+
+
+/* header */
+nav a{
+	font:14px SansProRegular;
+	color: #222222;
+
+}
+
+.logo section a, .logo h3{
+	color:#fff;
+} 
+
+.logo section a{
+	font-size:16px;
+	font-family:SansProLight;
+}
+
+.logo h3, .logo h3 span{
+	font-size:32px;
+
+}
+
+.logo h3{
+	font-family: SansProBlack;
+
+}
+
+
+.logo h3>span{
+	font-family:SansProLight;
+}
+
+
+/* content */
+
+/* content main */
+
+.article-logo{
+	font:16px SansProRegular;
+	color:red;
+}
+
+.article-info section:first-child span{
+	font:14px SansProLight;
+	color:red;
+
+}
+
+.article-info section:first-child i{
+	font-size:12px;
+	color:red;
+}
+.article-info section:last-child i{
+	color:red;
+	font-size:14px;
+}
+
+.articles article h4{
+	font:20px SansProRegular;
+	color:red;
+	letter-spacing: 6.2px;
+}
+
+.articles article span{
+	font:16px SansProLight;
+	color:red;
+}
+.articles article>a{
+	font:12px SansProRegular;
+	color:red;
+}
+
+.pages span{
+	font:16px SansProRegular;
+	color:green;
+}
+
+
+/* content aside */
+
+.recent-post h6,.categories h6,
+.archives h6, .tags h6
+{
+    font:16px SansProRegular;
+    color:red;	
+} 
+
+.recent-post span, .categories li, 
+.archives select, .tags section span
+{
+	font:16px SansProLight;
+	color:red;
+}
+
+.recent-post time{
+	font:14px SansProLight;
+	color:red;
+}
+
+.recent-post .fa-file-text-o{
+	color:blue;
+}
+
+.categories .fa-folder-open{
+	font-size:12px;
+	color:green;
+}
+
+.fa-angle-down{
+	color:green;
+	font-size:20px;
+}
+
+.social-footer i{
+	font-size:18px;
+	color:green;
+}
+
+
+.footer-content{
+	color:green;
+}
