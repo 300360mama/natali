@@ -240,25 +240,25 @@ main{
 	width:146px;
 	
 }
-.fa-facebook, .fa-pinterest, 
-.fa-instagram, .fa-twitter{
+.article-info .fa-facebook, .article-info .fa-pinterest, 
+.article-info .fa-instagram, .article-info .fa-twitter{
 	position:relative;
 	top:17px;
 }
-.fa-facebook{
+.article-info .fa-facebook{
 	margin-left:24px;
 	
 }
-.fa-twitter{
+.article-info .fa-twitter{
 	margin-left:20px;
 
 }
-.fa-pinterest{
+.article-info .fa-pinterest{
 	margin-left:18px;
 	
 
 }
-.fa-instagram{
+.article-info .fa-instagram{
 	margin-left:19px;
 
 }
@@ -380,10 +380,6 @@ article a{
 }
 
 
-
-.articles-first{
-
-}
 
 .articles-two{
 	margin-top:132px;
@@ -773,4 +769,129 @@ section.footer-info{
 	background:#222222;
 	height:401px;
 
+}
+
+.footer-info .address, .footer-info .company,
+.footer-info .news{
+	display:block;
+	float:left;
+	position:relative;
+}
+
+.address {
+	top:80px;
+	left:2px;
+
+}
+
+
+.address>section{
+	position:relative;
+}
+
+.address .address-call{
+	top:32px;
+} 
+.address-call span{
+	position:relative;
+	top:-2px;
+	left:4px;
+	letter-spacing:0.9px;
+}
+
+.address .address-mail{
+	top:51px;
+
+}
+
+.address .address-mail span{
+	position:relative;
+	top:-2px;
+	left:4px;
+	letter-spacing:1px;
+}
+.address .address-map{
+	top:70px;
+}
+.address .address-map i{
+	position:relative;
+	left:2px;
+}
+
+.address .address-map span{
+	position:relative;
+	top:-2px;
+	left:7px;
+	letter-spacing:1px;
+
+}
+.address .social-footer{
+	top:92px;
+
+}
+.social-footer i{
+	margin-right:16px;
+} 
+
+.company {
+	margin-left:464px;
+	margin-top:103px;
+}
+
+.company span{
+	letter-spacing:3.8px;
+}
+
+.company ul{
+	margin-top:33px;
+}
+
+.company ul li{
+	margin-top:5px;
+	letter-spacing:1px;
+}
+
+.news{
+	left:101px;
+	top:103px;
+}
+
+.news span{
+	letter-spacing:3px;
+}
+
+.news ul{
+	position:relative;
+	top:30px;
+}
+
+.news ul li{
+	letter-spacing:0.9px;
+	border-bottom:1px solid #28FF3E;
+	padding: 8px 0 12px;
+	width:270px;
+
+}
+
+.news ul li:first-of-type{
+	border-top:1px solid #28FF3E;
+
+}
+.news ul li::before{
+	content:"\2022";
+	margin-right:6px;
+	
+}
+
+.news .news2{
+	letter-spacing:0.8px;
+}
+
+.news .news3{
+	letter-spacing:0.6px;
+	word-spacing: 0.9px;
+}
+
+.news .news4{
+	word-spacing: -0.8px;
 }
