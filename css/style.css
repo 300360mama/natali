@@ -264,6 +264,7 @@ main{
 }
 
 
+
 .articles article{
 	padding-top: 33px;
 	padding-left: 3px;
@@ -754,11 +755,15 @@ aside ul{
 
 
 /* Footer */
+footer{
+	background-image:linear-gradient(to bottom,green 0px, green 401px, blue 402px, blue 503px );
 
+}
 
 footer .footer-content{
 	width:1170px;
 	margin:0 auto;
+	
 
 }
 
@@ -766,8 +771,9 @@ footer ul{
 	list-style:none;
 }
 section.footer-info{
-	background:#222222;
+
 	height:401px;
+	box-sizing:border-box;
 
 }
 
@@ -833,6 +839,7 @@ section.footer-info{
 	margin-right:16px;
 } 
 
+
 .company {
 	margin-left:464px;
 	margin-top:103px;
@@ -894,4 +901,16 @@ section.footer-info{
 
 .news .news4{
 	word-spacing: -0.8px;
+}
+
+.footer-content .copyright{
+	text-align: center;
+	height:90px;
+
+}
+.footer-content .copyright span{
+	position:relative;
+	top:36px;
+	letter-spacing:0.8px;
+	
 }

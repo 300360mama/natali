@@ -73,6 +73,17 @@ nav a{
 	font-size:14px;
 }
 
+.article-info .fa-facebook:hover, 
+.article-info .fa-twitter:hover,
+.article-info .fa-pinterest:hover,
+ .article-info .fa-instagram:hover{
+ 	color:#888888;
+
+}
+
+
+
+
 .articles article h4{
 	font:20px SansProRegular;
 	color:red;
@@ -147,6 +158,13 @@ nav a{
 	font-size:18px;
 	color:green;
 }
+ .social-footer .fa-facebook:hover, 
+ .social-footer .fa-twitter:hover,
+ .social-footer .fa-pinterest:hover,
+ .social-footer .fa-instagram:hover{
+ 	color:#666666;
+
+}
 
 .pe-7s-call, .pe-7s-mail-open-file, .pe-7s-map-2{
 	font-size:18px;
@@ -160,4 +178,9 @@ nav a{
 .company ul li, .news ul li{
 	font:16px SansProLight;
 	color:#28FF3E;
+}
+
+.footer-content .copyright span{
+	color:red;
+	font:16px SansProLight;
 }
