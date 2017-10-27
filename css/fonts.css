@@ -175,7 +175,7 @@ nav a{
 	color:green;
 }
 
-.company ul li, .news ul li{
+.company ul li a, .news ul li a{
 	font:16px SansProLight;
 	color:#28FF3E;
 }

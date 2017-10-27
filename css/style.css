@@ -147,6 +147,7 @@ header .logo h3>span{
 main{
 	width:770px;
 	margin-left:100px;
+	margin-right:32px;
 }
 
 
@@ -439,8 +440,8 @@ hr{
 
 aside{
 	width:270px;
-    margin-left:32px;
-}
+   /*  margin-left:32px;*/
+   } 
 
 aside ul{
 	list-style: none;
@@ -854,7 +855,7 @@ section.footer-info{
 }
 
 .company ul li{
-	margin-top:5px;
+	margin-top:6px;
 	letter-spacing:1px;
 }
 
@@ -892,11 +893,13 @@ section.footer-info{
 
 .news .news2{
 	letter-spacing:0.8px;
+	padding-bottom:11px;
 }
 
 .news .news3{
 	letter-spacing:0.6px;
 	word-spacing: 0.9px;
+	padding-bottom:12px;
 }
 
 .news .news4{

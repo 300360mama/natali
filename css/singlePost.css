@@ -1,0 +1,267 @@
+.container{
+	background-image: url('../images/03-Single-Post-With-Sidebar.jpg');
+
+} 
+
+.articles article{
+	padding-top: 40px;
+}
+
+article .article-text{
+	margin-top: 30px;
+	
+	
+}
+
+article .article-text p{
+	line-height:25.6px;
+	letter-spacing:0.05em;
+	word-spacing: 0.02em;
+
+}
+article .article-text p::first-line{
+	
+	word-spacing: 0.03em;
+}
+article .article-text p:last-child{
+	line-height:25.6px;
+}
+article .article-text p:last-child::first-line{
+	word-spacing: 0.01em;
+}
+
+article .article-text dfn{
+	margin:17px 0 27px 48px;
+	padding: 0 0 0 12px;
+	display: block;
+	border-left:2px solid green;
+	line-height:25.6px;
+	letter-spacing:0.05em;
+	word-spacing: 0.02em;
+}
+
+article .article-text dfn::first-line{
+	word-spacing: 0;
+}
+article .article-tags i, article .article-tags span{
+	position: relative;
+	
+}
+
+ article .article-tags span{
+ 	letter-spacing:0.3em;
+ 	top: 37px;
+	left: -1px;
+ }
+
+article .article-tags i{
+	border:1px solid red;
+	border-radius: 23px/23px;
+	box-sizing: border-box;
+	letter-spacing:0.05em;
+	padding:11px 20px 12px 18px;
+	top:36px;
+}
+
+article .article-tags i:last-of-type{
+	margin-left: 8px;
+	padding-left: 17px;
+	padding-right: 17px;
+	letter-spacing:0.06em;
+
+}
+
+.author-info{
+	width: 100%;
+	margin-top:116px;
+
+}
+
+.author-slide .author-slide-info, .author-slide img,
+.author-slide-info .author-social{
+	position:relative;
+}
+
+.author-info .author-slide{
+	background: blue;
+	height: 205px;
+}
+.author-info .author-slide img{
+	left:31px;
+	top:52px;
+}
+
+.author-info .author-slide .author-slide-info{
+	left:150px;
+	top:-62px;
+}
+
+.author-slide .author-slide-info h6{
+	letter-spacing:0.3em;
+	margin-bottom: 12px;
+}
+
+.author-slide .author-slide-info span{
+	letter-spacing:0.05em;
+	word-spacing: 0.045em;
+	line-height:25.6px;
+
+}
+.author-slide-info .author-social{
+	top:11px;
+
+}
+
+.author-slide-info .author-social i{
+	margin-right: 15px;
+}
+
+
+.author-slide-control section{
+	position:relative;
+	top:24px;
+	word-spacing: -5px;
+}
+
+.author-slide-control section:first-of-type{
+	float: left;
+
+}
+.author-slide-control section:first-of-type span{
+	left:-10px;
+}
+.author-slide-control section:last-of-type span{
+	left:18px;
+}
+
+.author-slide-control section:last-of-type{
+	float:right;
+}
+
+.author-slide-control .pe-7s-angle-right,
+.author-slide-control .pe-7s-angle-left{
+	position:relative;
+	top:9px;
+
+}
+.author-slide-control section span {
+	letter-spacing:0.3em;
+	position:relative;
+
+}
+.author-slide-control .pe-7s-angle-left {
+	left:-9px;
+
+}
+
+.author-slide-control .pe-7s-angle-right{
+	left:12px;
+}
+
+.article-comments{
+	margin-top:97px;
+	padding-top:68px;
+	border-top:1px solid yellow;
+}
+
+.article-comments h5{
+	margin-left:3px;
+	letter-spacing:0.3em;
+	word-spacing: 2px;
+}
+
+.article-comments .user-comment{
+	border-bottom: 1px red solid;
+}
+
+.user-comment time, .user-comment .text-author{
+	display:block;
+}
+
+.article-comments .user-comment:first-of-type{
+	margin-top:60px;
+	padding-bottom: 29px;
+}
+
+.user-comment img{
+	float:left;
+	display:block;
+	margin-right:32px;
+
+}
+
+.user-comment a{
+	display:block;
+	margin-top:5px;
+	padding-bottom: 3px;
+	border-bottom:1px solid red;
+	float:right;
+}
+
+.user-comment time{
+	margin-top:9px;
+}
+
+.user-comment .text-author{
+	margin-top:18px;
+}
+.user-comment:nth-child(odd){
+	padding:39px 0 42px 0;
+}
+
+.user-comment:nth-child(odd) img{
+	margin-left:100px;
+}
+
+.user-comment:nth-child(odd) .text-comment{
+	margin-top:12px;
+}
+
+.user-comment:last-of-type{
+	padding:29px 0 39px 0;
+}
+
+
+.user-comment:last-of-type .text-comment a,
+.user-comment:nth-child(odd) .text-comment a{
+	margin-top:-5px;
+
+}
+
+.article-comments form{
+	width:100%
+
+}
+
+.article-comments form input, .article-comments form textarea{
+	border:1px solid red;
+}
+.article-comments form textarea{
+	width:100%;
+
+}
+
+.article-comments form #name{
+	width:352px;
+	box-sizing:border-box;
+	float:left;
+}
+
+
+.article-comments form #email{
+	width:407px;
+	box-sizing:border-box;
+	float:right;
+}
+.article-comments form h6{
+	margin:46px 0 36px 3px;
+}
+.article-comments form input{
+	padding:17px 0 16px 20px;
+}
+.article-comments form input#email{
+	padding-left:13px;
+}
+
+
+

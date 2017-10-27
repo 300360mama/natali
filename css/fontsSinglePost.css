@@ -1,0 +1,96 @@
+@font-face{
+	font-family: SansProLightIt;
+	src:url('../fonts/SourceSansPro-LightItalic.ttf');
+}
+
+.articles article .article-text {
+	font: 16px SansProLight;
+	color:red;
+}
+
+article .article-text dfn{
+	font:16px SansProLightIt;
+}
+
+
+article .article-tags span{
+	font:16px SansProRegular;
+	color:red;
+}
+article .article-tags i{
+	font:16px SansProLight;
+	color:red;
+}
+.author-slide .author-slide-info{
+	color:yellow;
+}
+
+.author-slide .author-slide-info h6{
+	font:16px SansProRegular;
+}
+
+.author-slide .author-slide-info span{
+	font:16px SansProLight;
+}
+.author-slide-info .author-social i{
+	font-size: 14px;
+}
+
+
+.author-slide-control section span, .author-slide-control section i{
+	color:red;
+}
+.author-slide-control section span{
+	font:14px SansProRegular;
+
+}
+
+.author-slide-control section i{
+	font-size:30px;
+
+}
+
+.article-comments{
+	color:red;
+}
+.article-comments h5{
+	font:16px SansProRegular;
+}
+
+
+.user-comment .name-author{
+	font:14px SansProRegular;
+	letter-spacing:0.3em;
+}
+
+.user-comment time{
+	font:14px SansProLight;
+	letter-spacing:0.05em;
+	word-spacing: 0.06em;
+}
+
+.user-comment a{
+	font:12px SansProLight;
+	letter-spacing:0.3em;
+	word-spacing: 0.06em;
+
+}
+
+.user-comment .text-author{
+	font:16px SansProLight;
+	letter-spacing:0.05em;
+	word-spacing: 0.02em;
+	line-height: 25.6px;
+}
+
+.article-comments form h6{
+	font:16px SansProRegular;
+	letter-spacing:0.3em;
+}
+.article-comments form input::placeholder, 
+.article-comments form textarea::placeholder{
+	font:16px SansProRegular;
+	letter-spacing:0.05em;
+	word-spacing: -0.06em;
+	color:red;
+}

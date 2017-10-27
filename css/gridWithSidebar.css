@@ -1,0 +1,73 @@
+.container{
+	background-image: url('../images/02-Grid-With-Sidebar.jpg');
+
+} 
+
+main{
+	margin:0;
+	width:902px;
+}
+
+main .article-figure{
+	width: 410px;
+	float: left;
+	margin-right:30px;
+	margin-bottom:30px;
+
+	
+}
+
+
+main .article-figure img{
+	width:100%;
+	display: block;
+	height: 410px;
+}
+.article-figure figcaption{
+	height:119px;
+	width:100%;
+	background-color: #1BF1C4;
+}
+
+.article-figure figcaption h4{
+	position:relative;
+	left:52px;
+	top:25px;
+	letter-spacing:3px;
+	word-spacing: 1px;
+} 
+.article-figure figcaption section{
+	position:relative;
+	left:50px;
+	top:50px;
+	float:left;
+} 
+.article-figure figcaption section:first-of-type{
+	left:85px;
+	top:65px;
+}
+.article-figure figcaption section:last-of-type{
+	left:65px;
+	top:65px;
+}
+
+.article-figure figcaption section:first-of-type span{
+	margin-left:2px;
+	letter-spacing:0.7px;
+}
+.article-figure figcaption section:last-of-type span{
+	position:relative;
+	left:-4px;
+	letter-spacing:0.8px;
+}
+
+.pages a:first-of-type{
+	margin-left:300px;
+}
+
+.pages a{
+	position:relative;
+	top:30px;
+}
+
+

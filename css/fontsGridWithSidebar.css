@@ -1,0 +1,35 @@
+@font-face{
+	font-family: SansProLight;
+	src:url('../fonts/SourceSansPro-Light.ttf');
+}
+@font-face{
+	font-family: SansProRegular;
+	src:url("../fonts/SourceSansPro-Regular.ttf");
+}
+
+@font-face{
+	font-family: SansProBlack;
+	src:url("../fonts/SourceSansPro-Black.ttf");
+}
+@font-face{
+	font-family: PeIcon;
+	src:url("../fonts/Pe-icon-7-stroke.ttf");
+}
+
+
+.article-figure{
+	color:red;
+}
+.article-figure h4{
+	font:16px SansProRegular;
+
+}
+
+.article-figure figcaption .fa-clock-o,
+.article-figure figcaption .fa-folder-open{
+	font-size:12px; 
+}
+
+.article-figure section span{
+	font:14px SansProLight;
+}
