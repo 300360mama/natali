@@ -228,18 +228,24 @@ article .article-tags i:last-of-type{
 
 }
 
+
 .article-comments form{
 	width:100%
 
 }
 
+.article-comments form h6{
+	margin:46px 0 36px 3px;
+}
+
 .article-comments form input, .article-comments form textarea{
 	border:1px solid red;
 }
-.article-comments form textarea{
-	width:100%;
 
+.article-comments form input{
+	padding:17px 0 16px 20px;
 }
+
 
 .article-comments form #name{
 	width:352px;
@@ -253,15 +259,31 @@ article .article-tags i:last-of-type{
 	box-sizing:border-box;
 	float:right;
 }
-.article-comments form h6{
-	margin:46px 0 36px 3px;
-}
-.article-comments form input{
-	padding:17px 0 16px 20px;
-}
+
+
 .article-comments form input#email{
 	padding-left:13px;
 }
 
+.article-comments form textarea{
+	width:100%;
+	resize: none;
+	box-sizing:border-box;
+	margin-top:15px;
+	padding:15px 0 0 21px;
+	height:150px;
+}
 
+
+.article-comments input:last-of-type{
+	
+	margin-top:12px;
+	padding:13px 26px 13px 28px;
+	border-radius:21px/19px;
+	cursor: pointer;
+}
+
+footer{
+	margin-top:9px;
+}
 

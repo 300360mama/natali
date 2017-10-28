@@ -1,0 +1,72 @@
+.container{
+	background-image: url('../images/04-Single-Post-No-Sidebar.jpg');
+
+} 
+
+.container main{
+	width:970px;
+}
+
+.articles .article-img img:last-of-type{
+	width:100%;
+	height: 622px;
+}
+
+.article-img .article-info{
+	width:100%;
+	box-sizing:border-box;
+}
+
+.article-info>section:first-of-type{
+	width:819px;
+}
+
+.articles article{
+	padding:42px 0 0 2px;
+}
+
+article .article-text dfn{
+	margin:33px 0 38px 89px;
+	width:801px;
+}
+
+article .article-tags span{
+	left:0px;
+	top:51px;
+}
+article .article-tags i{
+	top:49px;
+}
+article .article-tags i:last-of-type{
+	padding-left:19px;
+	padding-right:16px;
+}
+
+main .author-info{
+	margin-top: 129px;
+}
+main .author-slide-info>span{
+	display:block;
+	width:750px;
+
+}
+
+.user-comment a{
+	margin-right:3px;
+}
+.user-comment .text-author{
+	width:755px;
+
+}
+
+.article-comments form input#name{
+	width:444px;
+}
+.article-comments form input#email{
+	width:513px;
+	padding-left:18px;
+}
+
+.article-comments form input:last-of-type{
+	padding-bottom:12px;
+}
