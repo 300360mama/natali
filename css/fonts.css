@@ -23,6 +23,29 @@ nav a{
 	color: #222222;
 
 }
+.navigation nav a.one{
+	letter-spacing: 1.3px;
+}
+.navigation nav a.two{
+	letter-spacing: 1.5px;
+	
+}
+
+.navigation nav a.three{
+	letter-spacing: 1.5px;
+}
+.navigation nav a.four{
+	letter-spacing:1.5px;
+}
+
+
+.navigation nav a.five {
+	letter-spacing:1.5px;
+}
+.navigation nav a.six{
+	letter-spacing:1.5px;
+}
+
 
 .logo section a, .logo h3{
 	color:#fff;
@@ -37,9 +60,19 @@ nav a{
 	font-size:32px;
 
 }
+header .logo section a:first-child{
+	letter-spacing:1px;
+
+}
+
+header .logo section a:last-child{
+	
+	letter-spacing:0.5px;
+}
 
 .logo h3{
 	font-family: SansProBlack;
+	letter-spacing:10px;
 
 }
 
@@ -56,12 +89,12 @@ nav a{
 .article-logo{
 	font:16px SansProRegular;
 	color:red;
+	letter-spacing:3px;
 }
 
 .article-info section:first-child span{
 	font:14px SansProLight;
 	color:red;
-
 }
 
 .article-info section:first-child i{
@@ -93,7 +126,11 @@ nav a{
 .articles article span{
 	font:16px SansProLight;
 	color:red;
+	letter-spacing:0.05em;
+	line-height: 25.6px;
+	word-spacing: 0.02em;
 }
+
 .articles article>a{
 	font:12px SansProRegular;
 	color:red;
